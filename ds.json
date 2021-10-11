@@ -1,0 +1,84 @@
+{
+  "countries": [
+    {
+      "id": 0,
+      "name": "Spain"
+    },
+    {
+      "id": 1,
+      "name": "England"
+    },
+    {
+      "id": 2,
+      "name": "France"
+    }
+  ],
+  "clubs": [
+    {
+      "id": 0,
+      "name": "Real Madrid",
+      "sponsor": "Adidas",
+      "countryId": 0
+    },
+    {
+      "id": 1,
+      "name": "PSG",
+      "sponsor": "Nike",
+      "countryId": 2
+    },
+    {
+      "id": 2,
+      "name": "Barcelona",
+      "sponsor": "Nike",
+      "countryId": 0
+    },
+    {
+      "id": 3,
+      "name": "Manchester United",
+      "sponsor": "Adidas",
+      "countryId": 1
+    }
+  ],
+  "footballers": [
+    {
+      "id": 0,
+      "name": "Marko",
+      "surname": "Asensio",
+      "age": "25",
+      "clubId": 0,
+      "countryId": 0
+    },
+    {
+      "id": 1,
+      "name": "Sergio",
+      "surname": "Ramos",
+      "age": "34",
+      "clubId": 1,
+      "countryId": 0
+    },
+    {
+      "id": 2,
+      "name": "Clement",
+      "surname": "Lenglet",
+      "age": "30",
+      "clubId": 2,
+      "countryId": 2
+    },
+    {
+      "id": 3,
+      "name": "Luke",
+      "surname": "Shaw",
+      "age": "27",
+      "clubId": 3,
+      "countryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Harry",
+      "surname": "Kane",
+      "age": "29",
+      "clubId": 3,
+      "countryId": 1
+    }
+  ]
+}
